@@ -9,7 +9,7 @@ Deobfuscation, in particular, will be analyzed in detail, examining traditional 
 The student is expected to deliver an overview of the state-of-the-art in code obfuscation and deobfuscation, as well as datasets that can be used to develop novel techniques in this field.
 
 
-# Thesis work has produced the following *Main Results*:
+## Thesis work has produced the following *Main Results*:
 
   * *Guide* that brings together the state-of-the-art regarding code obfuscation and deobfuscation.
   The first part of the thesis focuses on identifying existing and accessible tools, techniques and methodologies for obfuscating and deobfuscating JavaScript functions. The results of the search are then transcribed and organized in the guide. 
@@ -34,7 +34,7 @@ The student is expected to deliver an overview of the state-of-the-art in code o
 The search for information on the state-of-the-art in code obfuscation and deobfuscation led to the creation of the first 3 documents mentioned above, which then led to the creation of the dataset. The files collected in the dataset will in turn lead to the creation of potential novel methods and techniques, such as neural networks that learn and improve through the datasets. The latter document, based on the results collected in the dataset, could instead lead to the improvement or creation of new methods, techniques and tools for obfuscation and deobfuscation.
 
 
-# dataset_webtools.zip
+### dataset_webtools.zip
 
 - dataset_webtools
   - dataset_sample_js
