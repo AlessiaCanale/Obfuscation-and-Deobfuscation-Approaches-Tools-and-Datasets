@@ -32,3 +32,92 @@ The student is expected to deliver an overview of the state-of-the-art in code o
   The pairs compared are: original code with the obfuscated one, obfuscated code with the deobfuscated one, deobfuscated code with the original one.
 
 The search for information on the state-of-the-art in code obfuscation and deobfuscation led to the creation of the first 3 documents mentioned above, which then led to the creation of the dataset. The files collected in the dataset will in turn lead to the creation of potential novel methods and techniques, such as neural networks that learn and improve through the datasets. The latter document, based on the results collected in the dataset, could instead lead to the improvement or creation of new methods, techniques and tools for obfuscation and deobfuscation.
+
+
+# dataset_webtools.zip
+
+dataset_webtools
+  |
+  |- dataset_sample_js
+  |     |
+  |     |- original_code_functions
+  |     |
+  |     |- obfuscated_code_functions
+  |     |     |
+  |     |     |- obfuscator.io
+  |     |     |
+  |     |     |- ByteHide
+  |     |
+  |     |- deobfuscated_code_functions
+  |           |
+  |           |- relative.im
+  |           |    |
+  |           |    |- obfuscator.io
+  |           |    |
+  |           |    |- ByteHide
+  |           |
+  |           |- js-beautify
+  |           |    |
+  |           |    |- obfuscator.io
+  |           |    |
+  |           |    |- ByteHide
+  |           |
+  |           |- obf-io.deobfuscate.io
+  |                |
+  |                |- obfuscator.io
+  |                |
+  |                |- ByteHide
+  |
+  |
+  |-web_tools_obf_deobf
+      |
+      |- obfuscated_code
+      |     |
+      |     |- obfuscator.io
+      |     |
+      |     |- javascriptobfuscator.com
+      |     |
+      |     |- javascriptobfuscator
+      |     |
+      |     |- CodeBeautify
+      |     |
+      |     |- CleanCSS
+      |
+      |- deobfuscated_code
+            |
+            |- CodeAmaze
+            |     |
+            |     |- obfuscator.io
+            |     |
+            |     |- ByteHide
+            |
+            |- deobfuscate.io
+            |     |
+            |     |- obfuscator.io
+            |     |
+            |     |- ByteHide
+            |
+            |- js-beautify
+            |     |
+            |     |- obfuscator.io
+            |     |
+            |     |- ByteHide
+            |
+            |- obf-io.deobfuscate.io
+            |     |
+            |     |- obfuscator.io
+            |     |
+            |     |- ByteHide
+            |
+            |- relative.im
+            |     |
+            |     |- obfuscator.io
+            |     |
+            |     |- ByteHide
+            |
+            |- Unminify
+                  |
+                  |- obfuscator.io
+                  |
+                  |- ByteHide
+      
