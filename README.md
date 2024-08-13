@@ -18,11 +18,11 @@ The student is expected to deliver an overview of the state-of-the-art in code o
   The guide is then summarized in the tools table, where tools are listed on the left with their names and useful links, and then for each tool, the techniques and methodologies used are listed on the right. Tools are divided into those for obfuscation and those for deobfuscation, then they are divided again between open source and non open source. Furthermore, under each table, for every tool, techniques and methodologies used are briefly explained.
   
   * *Bash Script.*
-  The command line interface that can be used on Bash to obfuscate or deobfuscate code via each downloaded tool was identified among its files and information. Tried each tool on one or two JavaScript functions to see how it worked. Then created some Bash Scripts to automate the process of obfuscating, deobfuscating and executing the 100(0) original JavaScript functions.
+  The command line interface that can be used on Bash to obfuscate or deobfuscate code via each downloaded tool was identified among its files and information. Tried each tool on one or two JavaScript functions to see how it worked. Then created some Bash Scripts to automate the process of obfuscating, deobfuscating and executing the 1000 original JavaScript functions.
   The resulting Bash Script and other useful information and instructions were then collected in the Bash Script document.
   
   * *Dataset.*
-  Researched and collected in the "original code functions" folder a total of 100(0) JavaScript functions to obfuscate, deobfuscate, compare and then analyze results.
+  Researched and collected in the "original code functions" folder a total of 1000 JavaScript functions to obfuscate, deobfuscate, compare and then analyze results.
   Identified among the tools that can be downloaded and used locally on a VirtualBox virtual machine with Ubuntu 22.04.3 LTS: for obfuscation: obfuscator.io; for deobfuscation: relative.im , js-beautify , deobfuscate.io (version for obfuscator.io, called obf-io.deobfuscate.io, which also works for ByteHide) and then used manual obfuscation via the website of: ByteHide.
   Used the first four tools via Bash Scripting and collected the results in their respective folders: "obfuscated code functions": obfuscator.io, ByteHide ; "deobfuscated code functions": relative.im: obfuscator.io, ByteHide and js-beautify: obfuscator.io, ByteHide and obf-io.deobfuscate.io: obfuscator.io, ByteHide.
   
@@ -52,6 +52,12 @@ The search for information on the state-of-the-art in code obfuscation and deobf
       - obf-io.deobfuscate.io
         - obfuscator.io
         - ByteHide
+    - new_func
+      - O_original_code_functions 
+      - obfio
+      - rel_obfio
+      - js-beau_obfio
+      - deob_obfio
   - web_tools_obf_deobf
     - obfuscated_code
       - obfuscator.io
@@ -78,5 +84,3 @@ The search for information on the state-of-the-art in code obfuscation and deobf
       - Unminify
         - obfuscator.io
         - ByteHide
-
-
